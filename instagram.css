@@ -1,0 +1,174 @@
+/* MAIN SCREEN */
+.main{
+    background-color: rgba(30, 150, 255, 0);
+    height: 715px;
+    text-align: center;
+    padding-top: 59px;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+
+/* IMAGE SECTION WITH ANIMATION */
+
+.image{
+    background-color: rgba(82, 218, 28, 0); 
+    width: fit-content;
+    display: inline-block;
+    padding: 0rem 2rem;
+    vertical-align: middle;
+}
+.img1{
+    height: 400px;
+}
+.img2{
+    height: 400px;
+
+/* MAIN LOGIN PART     */
+
+}
+fieldset{
+    border-color: #f5f5f5;
+}
+
+.login h1{
+    font-family: 'Lobster', cursive;
+}
+.login{
+    background-color: rgba(178, 33, 84, 0);
+    display: inline-block;
+    padding: 0rem 2rem;
+    vertical-align: middle;
+
+}
+.login div{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+input[id="username"]{
+    background-color: #f5f5f5;
+    border: 1px solid rgb(168, 168, 168);
+    border-radius: 1px;
+    outline: none;
+    width: 255px;
+    padding: 10px 8px;
+    margin: 2px 2px;
+    
+}
+input[id="password"]{
+    background-color: #f5f5f5;
+    border: 1px solid rgb(166, 166, 166);
+    border-radius: 1px;
+    outline: none;
+    padding: 10px 8px;
+    margin: 2px 0px 20px 0px;
+    width: 255px;
+}
+input::placeholder{
+    text-align-last: left;
+}
+
+form{
+    padding: 20px 20px 10px;
+    margin: 26px 0px 0px;
+    /* align-items: center; */
+}
+h3{
+    padding: 0px 0px;
+    margin: 0px 0px;
+
+}
+img{
+    height: 50px;
+    padding: 0px 0px;
+    margin: 0px 0px;
+
+}
+h2{
+    font-family: 'Blinker', sans-serif;
+    font-size: 1.2rem;
+    padding: 0px 40px;
+
+}
+a{
+    text-decoration: none;
+    color: #385185;
+    
+}
+h2 a img{
+    height: 20px;
+}
+button{
+    width: 265px;
+    padding: 10px;
+    margin: 5px 3px 5px 3px;
+    background-color: #0095F6;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#loginbutton{
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+}
+/* Forget Part */
+
+.forgot button{
+    background-color: rgba(240, 248, 255, 0);
+    padding: 0px 0px 8px;
+    margin: 0px 0px;
+}
+/* Second Fieldset */
+#secfs{
+    margin-top: 10px;
+}
+#secfs a{
+    color: #0095F6;
+    font-weight: bold;
+}
+#secfs div{
+    margin: 15px 0px;
+}
+/* Get the application */
+#application{
+    display: block;
+    padding: 10px 10px;
+}
+#applicationimage{
+    display: flex;
+}
+#applicationimage div img{
+    margin: 10px 15px;
+    height: 40px;
+
+}
+/* FOOTER */
+
+footer{
+    background-color: rgba(0, 0, 0, 0);
+    color: #f5f5f5;
+ 
+    height: 125px;
+}
+footer #footer1,#footer2{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+#footer1 a{
+    margin: 10px;
+}
+#footer1 select,span{
+    margin: 10px;
+}
+span{
+    color: black;
+}
+select{
+    padding: 10px 14px;
+    border: none;
+}
